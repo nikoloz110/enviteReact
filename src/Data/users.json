@@ -1,0 +1,164 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Nina",
+      "lastName": "Lorens",
+      "email": "nina.l@gmail.com",
+      "birthDate": "11.06.1998",
+      "profilePicture": "https://www.bmo.com/dist/images/personal/investments/girl-smiling.jpg",
+      "friendList": ["Emma, Milla, Eimy"],
+      "chatList": [
+        { 
+          "id": 1,
+          "name": "Asos Team",
+          "members": [{"name": "Nina", "lastName": "Lorens", "isAdmin": true, "profilePicture": "https://www.bmo.com/dist/images/personal/investments/girl-smiling.jpg"}, {"name": "Emma", "lastName": "Rodrigez", "isAdmin": false, "profilePicture": "https://ct.yimg.com/cy/4729/39021888166_fc3dcc_128sq.jpg"}, {"name": "Milla", "lastName": "Kunis", "isAdmin": false, "profilePicture": "https://images.freeimages.com/images/premium/small-comps/1875/18754289-closeup-beauty-headshot-of-a-smiling-beautiful-brunette-woman.jpg"}, {"name": "Eimy", "lastName": "Rogers","isAdmin": false, "profilePicture": "https://lh3.googleusercontent.com/proxy/Du_o8R_bkWh37YcQQyaOf7mrkJj8jsDKEFMPk8G7i2ygNA9X7d3N9yyzAKL-IWmFN9ylGicbh-tYd7h-KQReZAAigdxt6E1xaZloXNDtUgqs9UKPDXbB63VU8g=w5000-h5000"}],
+          "background": "ChatCard__icon--red"
+        },
+        { 
+          "id": 2,
+          "name": "Teamshop",
+          "members": [{"name": "Calvin", "lastName": "Harris", "isAdmin": true, "profilePicture": "https://www.bmo.com/dist/images/personal/investments/girl-smiling.jpg"}, {"name": "Alesandra", "lastName": "Schwartz", "isAdmin": false, "profilePicture": "https://ct.yimg.com/cy/4729/39021888166_fc3dcc_128sq.jpg"}, {"name": "Barbara", "lastName": "Uwatenage", "isAdmin": false, "profilePicture": "https://images.freeimages.com/images/premium/small-comps/1875/18754289-closeup-beauty-headshot-of-a-smiling-beautiful-brunette-woman.jpg"}, {"name": "Calvin", "lastName": "Harris","isAdmin": false, "profilePicture": "https://lh3.googleusercontent.com/proxy/Du_o8R_bkWh37YcQQyaOf7mrkJj8jsDKEFMPk8G7i2ygNA9X7d3N9yyzAKL-IWmFN9ylGicbh-tYd7h-KQReZAAigdxt6E1xaZloXNDtUgqs9UKPDXbB63VU8g=w5000-h5000"}],
+          "background": "ChatCard__icon--green"
+        },
+        { 
+          "id": 3,
+          "name": "Jimmy Group",
+          "members": [{"name": "Jimmy", "lastName": "Kimmel", "isAdmin": true, "profilePicture": "https://www.bmo.com/dist/images/personal/investments/girl-smiling.jpg"}, {"name": "Konan", "lastName": "Obrian", "isAdmin": false, "profilePicture": "https://ct.yimg.com/cy/4729/39021888166_fc3dcc_128sq.jpg"}, {"name": "Tim", "lastName": "Minchin", "isAdmin": false, "profilePicture": "https://images.freeimages.com/images/premium/small-comps/1875/18754289-closeup-beauty-headshot-of-a-smiling-beautiful-brunette-woman.jpg"}, {"name": "Kevin", "lastName": "Hart","isAdmin": false, "profilePicture": "https://lh3.googleusercontent.com/proxy/Du_o8R_bkWh37YcQQyaOf7mrkJj8jsDKEFMPk8G7i2ygNA9X7d3N9yyzAKL-IWmFN9ylGicbh-tYd7h-KQReZAAigdxt6E1xaZloXNDtUgqs9UKPDXbB63VU8g=w5000-h5000"}],
+          "background": "ChatCard__icon--purple"
+        },
+        { 
+          "id": 4,
+          "name": "Swimmrs Team",
+          "members": [{"name": "Claudia", "lastName": "Kold", "isAdmin": true, "profilePicture": "https://www.bmo.com/dist/images/personal/investments/girl-smiling.jpg"}, {"name": "Debbie", "lastName": "Meyer", "isAdmin": false, "profilePicture": "https://ct.yimg.com/cy/4729/39021888166_fc3dcc_128sq.jpg"}, {"name": "Alice", "lastName": "Jones", "isAdmin": false, "profilePicture": "https://images.freeimages.com/images/premium/small-comps/1875/18754289-closeup-beauty-headshot-of-a-smiling-beautiful-brunette-woman.jpg"}, {"name": "Shane", "lastName": "Gould","isAdmin": false, "profilePicture": "https://lh3.googleusercontent.com/proxy/Du_o8R_bkWh37YcQQyaOf7mrkJj8jsDKEFMPk8G7i2ygNA9X7d3N9yyzAKL-IWmFN9ylGicbh-tYd7h-KQReZAAigdxt6E1xaZloXNDtUgqs9UKPDXbB63VU8g=w5000-h5000"}],
+          "background": "ChatCard__icon--red"
+        }
+      ],
+      "inbox": [
+        { "sender": "Lora Line", "msg": "Good to see you Nina" },
+        { "sender": "Nina", "msg": "Hi, welcome to my chat" },
+        { "sender": "Lora Line", "msg": "What a beautiful handbag that is" },
+        { "sender": "Nina", "msg": "Yes, it is indeed" },
+        { "sender": "Lora Line", "msg": "Would love to have one" },
+        { "sender": "Nina", "msg": "My boyfriend gifted me that one for christmas" },
+        { "sender": "Lora Line", "msg": "Aww so cute!" }
+      ],
+      "shoppingBag": [
+        { "owner": "Nina Lorens",
+          "name": "Dam cool yellow bag for woman",
+          "price": "$19.90",
+          "priceB4Sale": "$49.00",
+          "profilePicture": "https://www.bmo.com/dist/images/personal/investments/girl-smiling.jpg",
+          "icon": "https://dknwnigc18uf4.cloudfront.net/product-media/4E7/256/256/3141300.jpg"
+        },
+        {
+          "name": "Very classy red hat for woman",
+          "price": "$22.30",
+          "priceB4Sale": "$50.00",
+          "profilePicture": "https://www.bmo.com/dist/images/personal/investments/girl-smiling.jpg",
+          "icon": "https://summitsports.scene7.com/is/image/SummitSports/526005_526008_1?$256$"
+        },
+        {
+          "name": "Much awesome black jacket for girls",
+          "price": "$32.80",
+          "priceB4Sale": "$89.00",
+          "icon": "https://summitsports.scene7.com/is/image/SummitSports/525888_525888_1?$256$"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "firstName": "Lora",
+      "lastName": "Line",
+      "email": "Lora.l@gmail.com",
+      "birthDate": "11.06.1997",
+      "profilePicture": "https://ct.yimg.com/cy/4729/39021888166_fc3dcc_128sq.jpg",
+      "friendList": ["Emma, Milla, Eimy"],
+      "chatList": [
+        { 
+          "id": 1,
+          "name": "Asos Team",
+          "members": ["Nina", "Emma", "Milla", "Eimy"]
+        },
+        { 
+          "id": 2,
+          "name": "Teamshop",
+          "members": ["Nina", "Miranda", "Alesanda", "Barbara"]
+        },
+        { 
+          "id": 3,
+          "name": "Nina Group",
+          "members": ["Nina", "kathy", "Camila", "Millie"]
+        }
+      ],
+      "inbox": [
+        { "sender": "Nina", "msg": "Hi everyone!" },
+        { "sender": "Emma", "msg": "good to see you Nina" }
+      ],
+      "shoppingBag": [
+        {
+          "name": "Dam cool yellow bag for woman",
+          "price": "$19.90",
+          "priceB4Sale": "$49.00"
+        },
+        {
+          "name": "Very classy red hat for woman",
+          "price": "$22.30",
+          "priceB4Sale": "$50.00"
+        },
+        {
+          "name": "Much awesome black jacket for girls",
+          "price": "$32.80",
+          "priceB4Sale": "$89.00"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "firstName": "Emma",
+      "lastName": "Green",
+      "email": "Emma.g@gmail.com",
+      "birthDate": "12.03.1995",
+      "profilePicture": "https://images.freeimages.com/images/premium/small-comps/1875/18754289-closeup-beauty-headshot-of-a-smiling-beautiful-brunette-woman.jpg",
+      "friendList": ["Emma, Milla, Eimy"],
+      "chatList": [
+        { 
+          "id": 1,
+          "name": "Asos Team",
+          "members": ["Nina", "Emma", "Milla", "Eimy"]
+        },
+        { 
+          "id": 2,
+          "name": "Teamshop",
+          "members": ["Nina", "Miranda", "Alesanda", "Barbara"]
+        },
+        { 
+          "id": 3,
+          "name": "Nina Group",
+          "members": ["Nina", "kathy", "Camila", "Millie"]
+        }
+      ],
+      "inbox": [
+        { "sender": "Nina", "msg": "Hi everyone!" },
+        { "sender": "Emma", "msg": "good to see you Nina" }
+      ],
+      "shoppingBag": [
+        {
+          "name": "Dam cool yellow bag for woman",
+          "price": "$19.90",
+          "priceB4Sale": "$49.00"
+        },
+        {
+          "name": "Very classy red hat for woman",
+          "price": "$22.30",
+          "priceB4Sale": "$50.00"
+        },
+        {
+          "name": "Much awesome black jacket for girls",
+          "price": "$32.80",
+          "priceB4Sale": "$89.00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,3 +1,29 @@
+/* fonts */
+@font-face {
+  font-family: "Gilroy-regular";
+  src: url("/Fonts/gilroy-regular.otf");
+}
+@font-face {
+  font-family: "Gilroy-bold";
+  src: url("/Fonts/gilroy-bold.otf");
+}
+@font-face {
+  font-family: "Gilroy-semibold";
+  src: url("/Fonts/gilroy-semibold.otf");
+}
+@font-face {
+  font-family: "Gilroy-thin";
+  src: url("/Fonts/gilroy-thin.otf");
+}
+@font-face {
+  font-family: "Gilroy-medium";
+  src: url("/Fonts/gilroy-medium.otf");
+}
+@font-face {
+  font-family: "Gilroy-light";
+  src: url("/Fonts/gilroy-light.otf");
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -12,3 +38,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
