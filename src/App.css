@@ -1015,7 +1015,6 @@ padding-left: 10px;
 @media (max-height: 620px){
   .LoginCard {
     padding: 5px;
-    background-color: azure;
   }
   .LoginCard__p-1 {
     margin-bottom: 15px;
@@ -1094,10 +1093,5 @@ padding-left: 10px;
   }
   .label {
     font-size: 10pt;
-  }
-}
-@media (min-height: 600px){
-  .LoginCard {
-    /* background-color: blue; */
   }
 }
