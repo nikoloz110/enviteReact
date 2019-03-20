@@ -19,7 +19,7 @@ export default class GroupInfoCard extends Component {
           <hr className="swipeBar-2__hr" />
           <hr className="swipeBar-2__hr" />
         </div>
-        <GroupInfoCardHeader name={name} closeGroupInfo={this.props.closeGroupInfo}/>
+        <GroupInfoCardHeader name={name} closeGroupInfo={this.props.closeGroupInfo} goBackGroupInfo={this.props.goBackGroupInfo}/>
         <p className="groupTitle">
           <div className="groupTitleWrapper">
             <i className={background + " GroupTitle__icon"}>

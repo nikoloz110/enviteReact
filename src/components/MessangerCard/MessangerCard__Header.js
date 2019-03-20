@@ -8,7 +8,7 @@ export default class MessageCardHeader extends Component {
   render() {
     return (
       <div className="MessageCardHeader">
-        <button><img src={groupIcon} /></button>
+        <button onClick={this.props.goBackMessanger}><img src={groupIcon} /></button>
         <p className="MessageCardHeader__p">
         {this.props.showNewGroup ? "New Group" : "It's all about the bag"}
         </p>

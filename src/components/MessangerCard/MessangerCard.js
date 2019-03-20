@@ -15,7 +15,7 @@ export default class MessangerCard extends Component {
           <hr className="swipeBar-2__hr"/>
         </div>
         <MessangerCard__Header showGroupInfo={this.props.showGroupInfo}
-          showNewGroup={this.props.showNewGroup}
+          showNewGroup={this.props.showNewGroup} goBackMessanger={this.props.goBackMessanger}
         />
         {this.props.showNewGroup && <EnviteFriends />}
         {!this.props.showNewGroup && <Chat />}

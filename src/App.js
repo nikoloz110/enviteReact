@@ -43,7 +43,7 @@ class App extends Component {
 
   closeLogin = () => {
     this.setState({loginAnimation: "animateHide"});
-    setTimeout(()=>{this.setState({ showLogin: false})}, 500);
+    setTimeout(()=>{this.setState({ showLogin: false})}, 400);
   }
 // ----------- done
   proceedToChats = () => {
@@ -51,15 +51,21 @@ class App extends Component {
   };
   closeChats = () => {
     this.setState({chatsAnimation: "animateHide"});
-    setTimeout(()=>{this.setState({ showChats: false})}, 500);
+    setTimeout(()=>{this.setState({ showChats: false})}, 400);
   }
+
+  
   // --------------- done
   proceedToMessanger = (chatInfo) => {
     this.setState({showMessanger: true, showChats: false, activeChatInfo: (chatInfo || ""), messangerAnimation: "animateShowFade" });
   }
   closeMessanger = () => {
     this.setState({messangerAnimation: "animateHide"});
-    setTimeout(()=>{this.setState({ showMessanger: false, showNewGroup: false})}, 800);
+    setTimeout(()=>{this.setState({ showMessanger: false, showNewGroup: false})}, 400);
+  }
+  goBackMessanger = () => {
+    this.setState({messangerAnimation: "animateHide"});
+    setTimeout(()=>{this.setState({ showMessanger: false, showNewGroup: false, showChats: true})}, 400);
   }
 // ------------------ done
   showNewGroup = () => {
@@ -70,8 +76,13 @@ class App extends Component {
   }
   closeGroupInfo = () => {
     this.setState({groupInfoAnimation: "animateHide"});
-    setTimeout(()=>{this.setState({showGroupInfo: false, showMessanger: true})}, 800);
+    setTimeout(()=>{this.setState({showGroupInfo: false, showMessanger: false})}, 400);
   }
+  goBackGroupInfo = () => {
+    this.setState({groupInfoAnimation: "animateHide"});
+    setTimeout(()=>{this.setState({showGroupInfo: false, showMessanger: true})}, 400);
+  }
+
 
   // ----------
   showShoppingBag = () => {
@@ -79,7 +90,7 @@ class App extends Component {
   }
   closeShoppingBag = () => {
     this.setState({shoppingBagAnimation: "animateHide"});
-    setTimeout(()=>{this.setState({showShoppingBag: false, showGroupInfo: true})}, 800);
+    setTimeout(()=>{this.setState({showShoppingBag: false, showGroupInfo: true})}, 400);
   }
 
   // ---------
@@ -88,7 +99,7 @@ class App extends Component {
   }
   closeProfile = () => {
     this.setState({profileAnimation: "animateHide"});
-    setTimeout(()=>{this.setState({ showProfile: false})}, 800);
+    setTimeout(()=>{this.setState({ showProfile: false})}, 400);
   }
 
   showAddParticipants = () => {
@@ -96,7 +107,7 @@ class App extends Component {
   }
   closeAddParticipants = () => {
     this.setState({addParticipantsAnimation: "animateHide"});
-    setTimeout(()=>{this.setState({ showAddParticipants: false,  showGroupInfo: true})}, 800);
+    setTimeout(()=>{this.setState({ showAddParticipants: false,  showGroupInfo: true})}, 400);
   }
 
   render() {
@@ -106,8 +117,8 @@ class App extends Component {
           <LaunchButtonContainer proceedToLogin={this.proceedToLogin} showMessageFade={this.state.showMessageFade}/>
           {this.state.showLogin && <LoginCard proceedToChats = {this.proceedToChats} loginAnimation={this.state.loginAnimation} closeLogin={this.closeLogin}/>}
           {this.state.showChats && <ChatsCard proceedToMessanger={this.proceedToMessanger} showNewGroup={this.showNewGroup} showProfile={this.showProfile} chatsAnimation={this.state.chatsAnimation} closeChats={this.closeChats}/>}
-          {this.state.showMessanger && <MessangerCard showNewGroup={this.state.showNewGroup} showGroupInfo={this.showGroupInfo} messangerAnimation={this.state.messangerAnimation} closeMessanger={this.closeMessanger}/>}
-          {this.state.showGroupInfo && <GroupInfoCard  groupInfo={this.state.activeChatInfo} showShoppingBag={this.showShoppingBag} groupInfoAnimation={this.state.groupInfoAnimation} closeGroupInfo={this.closeGroupInfo} showAddParticipants={this.showAddParticipants}/>}
+          {this.state.showMessanger && <MessangerCard showNewGroup={this.state.showNewGroup} showGroupInfo={this.showGroupInfo} messangerAnimation={this.state.messangerAnimation} closeMessanger={this.closeMessanger} goBackMessanger={this.goBackMessanger}/>}
+          {this.state.showGroupInfo && <GroupInfoCard  groupInfo={this.state.activeChatInfo} showShoppingBag={this.showShoppingBag} groupInfoAnimation={this.state.groupInfoAnimation} closeGroupInfo={this.closeGroupInfo} showAddParticipants={this.showAddParticipants} goBackGroupInfo={this.goBackGroupInfo}/>}
           {this.state.showShoppingBag && <ShoppingBagCard  shoppingBagAnimation={this.state.shoppingBagAnimation} closeShoppingBag={this.closeShoppingBag}/>}
           {this.state.showProfile && <ProfileCard  profile={this.state.showProfile} proceedToChats={this.proceedToChats} profileAnimation={this.state.profileAnimation} closeProfile={this.closeProfile}/>}
           {this.state.showMessageFade && <MessageFade />}

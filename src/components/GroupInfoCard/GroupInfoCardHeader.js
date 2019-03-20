@@ -8,7 +8,7 @@ export default class GroupInfoCardHeader extends Component {
   render() {
     return (
       <div className="GroupInfoCardHeader">
-        <button><img src={groupIcon} /></button>
+        <button onClick={this.props.goBackGroupInfo}><img src={groupIcon} /></button>
         <p className="GroupInfoCardHeader__p">
         Group Info
         </p>

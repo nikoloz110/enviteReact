@@ -30,7 +30,7 @@ body {
   top: -25px;
 }
 .swipeBar--1--2 {
-  top: -40px;
+  top: -30px;
 }
 
 .swipeBar--2 {
@@ -143,7 +143,7 @@ body {
 .ChatsCard__p__wrapper {
   display: flex;
   justify-content: center;
-  margin-bottom: 22px;
+  margin-bottom: 12px;
 }
 
 .ChatsCard {
@@ -189,24 +189,24 @@ body {
 }
 
 .ChatsCard__p-1 {
-  font-size: 18pt;
+  font-size: 15pt;
   font-family: "Gilroy-bold";
   margin: 5px 0 0 0;
 }
 
 .ChatsCard__p-2 {
-  font-size: 15pt;
+  font-size: 12pt;
   max-width: 350px;
 }
 .ChatsCard__p-3 {
-  font-size: 15pt;
+  font-size: 12pt;
   font-family: "Gilroy-bold";
-  margin: 30px 0 8px 0;
+  margin: 10px 0 0 0;
 }
 
 .ChatsWrapper__chatsList {
-  margin: 0 20px 24px 20px;
-  max-height: 280px;
+  margin: 0 20px 15px 20px;
+  max-height: 180px;
   /* min-height: 270px; */
   overflow-y: auto;
 }
@@ -230,7 +230,7 @@ body {
 .ChatCard {
   background-color: #f5f4fa;
   border: 1px solid #e6e3f1;
-  padding: 16px 12px;
+  padding: 10px 12px;
   border-radius: 6px;
   margin: 12px 0;
   display: flex;
@@ -259,11 +259,11 @@ body {
 
 .ChatCard_data__name {
   font-family: "Gilroy-bold";
-  font-size: 16pt;
+  font-size: 13pt;
 }
 
 .ChatCard_data__members {
-  font-size: 13pt;
+  font-size: 12pt;
 }
 
 .ChatCard__icon--red {
@@ -375,7 +375,8 @@ body {
 
 .Chat {
   background-color: #f5f4fa;
-  min-height: 280px;
+  /* min-height: 200px; */
+  max-height: 280px;
   padding: 0 30px;
 }
 
@@ -658,7 +659,7 @@ body {
 
 .groupInfo__action--delete {
   padding: 15px 22px;
-  margin-top: 40px;
+  margin-top: 20px;
   color: #fc1243;
 }
 .groupInfo_action__icon {
@@ -741,10 +742,7 @@ body {
   height: 48px;
 }
 
-.input__Wrapper {
-  display: flex;
-  justify-content: space-between;
-}
+
 
 .smallLabelWrapper {
   display: flex;
@@ -1014,24 +1012,92 @@ text-align: left;
 padding-left: 10px;
 }
 
-@media (min-height: 320px){
+@media (max-height: 620px){
   .LoginCard {
-    background-color: azure;
     padding: 5px;
+    background-color: azure;
   }
-  .ChatsCard__ChatsWrapper {
-    max-height: 152px;
+  .LoginCard__p-1 {
+    margin-bottom: 15px;
+  }
+
+  .LoginCard__btnContainer {
+    margin-bottom: 20px;
+  }
+
+  .ChatsWrapper__chatsList {
+    height: 120px;
+  }
+  .swipeBar--1--2 {
+    top: -30px;
+  }
+  .ChatsWrapper__NewJourney {
+    display: none;
+  }
+  .ChatCard {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .ChatsCard__p__wrapper {
+    margin-bottom: 10px;
+  }
+  .ChatsCard__p-1 {
+    font-size: 14pt;
+  }
+
+  .ChatsCard__p-2 {
+    font-size: 13pt;
   }
   .ChatsCard__p-3 {
-    margin-top: 0px;
+    margin-top: 5px;
     margin-bottom: 0px;
+    font-size: 13pt;
+  }
+
+  .ChatCard_data__name {
+    font-size: 13pt;
+  }
+  .ChatCard_data__members {
+    font-size: 12pt;
+  }
+  .EnviteFriends {
+    max-height: 200px;
   }
   .Chat {
     max-height: 200px;
   }
+  .MessageCardHeader {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .MessageCardHeader__p {
+    font-size: 14pt;
+  }
+  .MessageBox {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .participantWrapper {
+    max-height: 120px;
+  }
+  .groupInfo__action--delete {
+    margin-top: 10px;
+    padding: 10px 22px;
+  }
+  .bagItems {
+    max-height: 320px;
+  }
+  .ProfileCard__form {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .label {
+    font-size: 10pt;
+  }
 }
 @media (min-height: 600px){
   .LoginCard {
-    background-color: blue;
+    /* background-color: blue; */
   }
 }
